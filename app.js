@@ -5,7 +5,7 @@ var express   = require('express')
   , Schema    = mongoose.Schema;
 
 //mongoose.connect("mongodb://localhost/blogs",function(err){
-mongoose.connect("mongodb://shane:evaporated@staff.mongohq.com:10008/plannable",function(err){
+mongoose.connect("CREDENTIALS_HERE",function(err){
 if(err){
 throw err;
 }else{
