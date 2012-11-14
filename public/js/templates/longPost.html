@@ -1,0 +1,19 @@
+<article id="170" class="post-170 post type-post status-publish format-standard hentry category-personal">
+    <header class="prepend-3">
+    <h1 class="post-title"><%= title %>
+    </h1>
+    </header>
+    <div class="row">
+    <aside class="cell-3">
+        <p class="post-info gray-darker"><%= date %></p>
+        <p class="post-word-counts gray"><%= content.length+" words"%> </p>
+        <p class="post-category gray"><a href="#cat/<%= category %>" title="View all posts in Personal" rel="category tag"><%= category %></a></p>
+    </aside>
+    <div class="cell-9">
+        <div class="post-excerpt">
+            <p><%= short %></p>
+            <p> <a href="#post/<%=_id%>" class="more-link">Continue reading →</a></p>
+        </div>
+    </div>
+    </div>
+</article>

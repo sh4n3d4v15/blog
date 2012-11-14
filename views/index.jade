@@ -1,0 +1,65 @@
+html
+head(dir='ltr', lang='en-US')
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width,minimum-scale=1,maximum-scale=1')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='author', content='SHane Davis')
+    meta(name='keywords', content='html5, css3, node.js, backbone.js, require.js, NoSQL, javascript')
+    title Shane Davis | javaScript developer
+    link(rel='icon', type='image/png', href='')
+    link(rel='stylesheet', type='text/css', href='/css/main.css')
+    script(data-main='js/main-built', datatype='text/javascript', src='js/libs/require/require.js')
+    body.home.blog
+      .container
+        .wrapper
+          header#header.row
+            .cell-2
+              a.logo(href='/')
+                i.me
+                strong Hi, I'm Shane Davis | We need to talk about javaScript
+            .cell-10
+              nav#nav.nav(role='navigation')
+                ul#header-menu.menu
+                  li#menu-item-14.menu-item.menu-item-type-taxonomy.menu-item-object-category.menu-item-14
+                    a(title='Check out my', href='#all') Posts
+                  li#menu-item-12.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-12
+                    a(title='Know more', href='#about') About me
+                  li#menu-item-11.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-11
+                    a(title='My', href='#resources') Picks
+                  li#menu-item-90.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-90
+                    a(title='Get In', href='#contact') Contact
+          section(role='main',id="main")
+            header.intro
+              .row
+                hgroup.cell-11.prepend-1
+                  h1 Shane Davis
+                  h2 We need to talk about javaScript 
+            .row
+              .cell-7.prepend-1
+                article#170.post-170.post.type-post.status-publish.format-standard.hentry.category-personal
+                ul#posts.ui-list.last-posts
+                  img(src="img/ajax-loader.gif",id="loader")
+              .cell-4.sidebar
+                  #text-2.widget.widget_text
+                      h3 GET IN TOUCH
+                      .textwidget You can find me at all the usual places
+                      ul.socials
+                        li
+                          a(href='http://www.facebook.com/shane.h.davis.3', target='_blank')
+                            img(src='img/Facebook.png', alt='')
+                        li
+                          a(href='https://twitter.com/gettysburgslim', target='_blank')
+                            img(src='img/Twitter.png', alt='')
+                        li
+                          a(href='http://www.linkedin.com/pub/shane-davis/49/a27/418', target='_blank')
+                            img(src='img/LinkedIn.png', alt='')
+                        li
+                          a(href='https://vimeo.com/user12642866', target='_blank')
+                            img(src='img/Vimeo.png')
+                    #linkcat-2.widget.widget_links
+        footer#footer
+          .row
+            .cell-12.align-center
+              | You can tweet 
+              a(href='https://twitter.com/gettysburgslim') me on
+              |  Twitter.
